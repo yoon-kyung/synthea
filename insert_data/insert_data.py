@@ -27,6 +27,6 @@ for file_name in file_names:
     df = pd.read_csv(file_dir + f"/{file_name}")
     df.columns = [c.lower() for c in df.columns]
     print(f"INSERT {file_name} ING... ")
-    # df.to_sql(f"{file_name.split('.')[0]}", engine)
+    df.to_sql(f"{file_name.split('.')[0]}", engine)
 
 print("COMPLETE")
