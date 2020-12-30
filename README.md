@@ -6,3 +6,7 @@
 2. vim insert_data/db_info.env에서 사용 할 db 정보를 입력
 3. python3 -m insert_data.insert_data.py 실행
 ```
+
+## analysis.ipynb
+- 데이터 분석 파일
+- jupyter file
